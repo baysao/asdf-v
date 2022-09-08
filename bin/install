@@ -18,10 +18,10 @@ _install() {
 
 	unzip ${version}.zip
 	rm ${version}.zip
-	mkdir -p $install_path/bin
+	# mkdir -p $install_path/bin
 	mv ./v/* $install_path/
-	cd $install_path/bin
-	ln -sf $install_path/v .
+	# cd $install_path/bin
+	# ln -sf $install_path/v .
 	rm -rf $tmpd
 }
 
